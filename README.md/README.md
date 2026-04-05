@@ -185,8 +185,8 @@ This project is built according to the assignment focus areas:
 - End-to-end execution
 
 ## Live Deployment Links
-- Frontend: Add your deployed frontend link here
-- Backend: Add your deployed backend link here
+- Frontend: [https://comforting-bavarois-d4498c.netlify.app]
+- Backend:  [https://candidate-shortlisting-system.onrender.com]
 
 ## Author
-Sairam
+Sairam 
