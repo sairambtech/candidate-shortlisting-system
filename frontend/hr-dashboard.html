@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HR Dashboard</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="top-bar">
+      <h2>HR Dashboard</h2>
+      <button onclick="logout()">Logout</button>
+    </div>
+
+    <h3>All Candidates</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Skills</th>
+          <th>Experience</th>
+          <th>Status</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="candidateTableBody"></tbody>
+    </table>
+  </div>
+
+  <script src="./js/hr.js"></script>
+</body>
+</html>
